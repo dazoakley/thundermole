@@ -1,16 +1,17 @@
 {
 	"name": "thundermole",
 	"version": "1.6.5",
-
 	"description": "Proxy or redirect requests to different applications based on an API response",
-	"keywords": [ "api", "router", "proxy" ],
-
+	"keywords": [
+		"api",
+		"router",
+		"proxy"
+	],
 	"author": "Springer Nature",
 	"contributors": [
 		"Rowan Manning (http://rowanmanning.com/)",
 		"Andrew Walker (http://www.moddular.org/)"
 	],
-
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/springernature/thundermole.git"
@@ -18,7 +19,6 @@
 	"homepage": "https://github.com/springernature/thundermole",
 	"bugs": "https://github.com/springernature/thundermole/issues",
 	"license": "GPL-3.0",
-
 	"engines": {
 		"node": ">=0.10"
 	},
@@ -42,7 +42,6 @@
 		"proclaim": "^3",
 		"sinon": "^1"
 	},
-
 	"main": "./lib/thundermole.js",
 	"bin": {
 		"thundermole": "./bin/thundermole"
